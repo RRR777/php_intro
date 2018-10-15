@@ -7,6 +7,7 @@ Scalar types for function parameters:
 - interfaces
 - array
 - callable
+
 Return Type Declarations (? - nullable,type)
 - array: function foo(): ?array
 - bool: function foo(): ?bool
