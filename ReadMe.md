@@ -31,11 +31,13 @@ function declaration. This practice can be most advantageous because it results 
 improved error messages.
 
 Calling only Book class object
+```
 function read(Book $book)
 {
     echo "Reading the book called " . book->title;
     echo "<p>" . book->description . "</p>";
 }
+```
 
 Pros:
 - Type hinting isn't required, but it can allow us to catch certain types of mistakes.
